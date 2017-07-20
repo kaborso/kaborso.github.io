@@ -1,0 +1,23 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="{{ site.baseurl }}">
+          {{ site.title }}
+        </a>
+      </h1>
+      <p class="lead">{{ site.description }}</p>
+    </div>
+    <nav class="sidebar-nav">
+      <!-- {% assign pages_list = site.links | concat: site.pages %} -->
+      {% assign pages_list = site.links %}
+      {% for node in pages_list %}
+        {% if node.title != null %}
+          {% if node.layout == "page" or node.layout == null %}
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </nav>
+  </div>
+</div>

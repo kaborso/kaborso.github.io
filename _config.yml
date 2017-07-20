@@ -1,0 +1,28 @@
+# Dependencies
+highlighter:      pygments
+plugins_dir:      [jekyll-paginate, redcarpet, jekyll-gist]
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            kaborso
+tagline:          'akil brooks'
+description:      'web development and media production'
+url:              http://kaborso.com
+baseurl:          /
+
+author:
+  name:           'Akil Brooks'
+
+links:
+    - title:      open source work
+      url:        https://github.com/kaborso/
+    - title:      net art and interactive fiction
+      url:        '#'
+    - title:      objects for sale
+      url:        '#'
+    - title:      film thoughts
+      url:        '#'
+    - title:      video stuff
+      url:        '#'
