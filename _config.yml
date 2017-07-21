@@ -1,5 +1,5 @@
 # Dependencies
-highlighter:      pygments
+highlighter:      rouge
 plugins_dir:      [jekyll-paginate, redcarpet, jekyll-gist]
 
 # Permalinks
