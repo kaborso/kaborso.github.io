@@ -15,6 +15,9 @@ baseurl:          /
 author:
   name:           'Akil Brooks'
 
+include:          ['_tinkering', '.htaccess']
+exclude:          ['README.md', 'misc']
+
 links:
     - title:      open source work
       url:        https://github.com/kaborso/
